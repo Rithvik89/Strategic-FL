@@ -25,9 +25,11 @@ export const useWebSocket = ({ url }: UseWebSocketProps) => {
 
     websocket.onmessage = (event) => {
       const message = JSON.parse(event.data);
-      setMessages((prev) => [...prev, message]);
+      setMessages([message]);
     };
-
+    websocket.onerror = (error) => {
+      console.error('WebSocket error:', error);
+    };
     setWs(websocket);
 
     return () => {

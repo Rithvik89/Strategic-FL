@@ -1,35 +1,41 @@
 // src/components/CardLayout.tsx
 import React from 'react';
 import { Card, Text, Image, Group, Badge, Button, Avatar } from '@mantine/core';
-import { FaArrowDown, FaArrowUp } from 'react-icons/fa';
+import { FaArrowTrendUp, FaArrowTrendDown,  } from "react-icons/fa6";
+import { PiHourglassLow } from "react-icons/pi";
 
 interface CardProps {
-  title: string;
-  cur_price: number;
-  team : string;
-  net_change : boolean,
-  profile_pic: string,
-}
+    player_id: string;
+    player_name: string;
+    team : string;
+    profile_pic: string,
+    cur_price: number;
+    last_change: string;
+  }
 
-export const CardLayout: React.FC<CardProps> = ({ title, cur_price, team, net_change,profile_pic}) => {
+export const CardLayout: React.FC<CardProps> = ({ player_name, cur_price, team, last_change,profile_pic}) => {
     return (
         <Card shadow="sm" padding="lg" radius="md" withBorder>
             <Group justify="space-between" mt="md" mb="xs">
-                <Avatar src={profile_pic} alt="it's me" size="lg" />
+                <Avatar src={`src/assets/${profile_pic}`} alt="it's me" size="lg" />
                 
-                <Text fw={500}>{title}</Text>
+                <Text fw={500}>{player_name}</Text>
                 <Badge color="pink">{team}</Badge>
             </Group>
 
             <Text size="sm" style={{ textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <strong>{cur_price}</strong>
+                <div style={{marginLeft : '5px'}}>
                 {
-                    net_change ? (
-                        <FaArrowUp style={{ color: 'green' }} />
+                    last_change === "pos" ? (
+                        <FaArrowTrendUp style={{ color: 'green' }} />
+                    ) : last_change === "neg" ? (
+                        <FaArrowTrendDown style={{ color: 'red' }} />
                     ) : (
-                        <FaArrowDown style={{ color: 'red' }} />
+                        <PiHourglassLow style={{ color: 'black' }} />
                     )
                 }
+                </div>
             </Text>
             {/* <div style={{display: "flex"}}>
             <Button color="green" fullWidth mt="md" radius="md">
