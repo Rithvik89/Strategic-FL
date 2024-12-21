@@ -9,6 +9,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/gorilla/websocket"
+	"github.com/rs/cors"
+	"gorm.io/gorm"
 )
 
 var upgrader = websocket.Upgrader{
@@ -18,9 +20,10 @@ var upgrader = websocket.Upgrader{
 }
 
 type App struct {
-	r        *chi.Mux
-	clients  []*websocket.Conn
-	clientsM sync.Mutex
+	DB       *gorm.DB
+	R        *chi.Mux
+	Clients  []*websocket.Conn
+	ClientsM sync.Mutex
 }
 
 // TODO: Assuming we are only having 1 match pool for now
@@ -33,19 +36,19 @@ func (app *App) handleWebSocket(w http.ResponseWriter, r *http.Request) {
 	}
 	defer conn.Close()
 
-	app.clientsM.Lock()
-	app.clients = append(app.clients, conn)
-	app.clientsM.Unlock()
+	app.ClientsM.Lock()
+	app.Clients = append(app.Clients, conn)
+	app.ClientsM.Unlock()
 
 	defer func() {
-		app.clientsM.Lock()
-		for i, c := range app.clients {
+		app.ClientsM.Lock()
+		for i, c := range app.Clients {
 			if c == conn {
-				app.clients = append(app.clients[:i], app.clients[i+1:]...)
+				app.Clients = append(app.Clients[:i], app.Clients[i+1:]...)
 				break
 			}
 		}
-		app.clientsM.Unlock()
+		app.ClientsM.Unlock()
 	}()
 
 	for {
@@ -72,34 +75,42 @@ func (app *App) GetPoints(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Println(players)
 
-	app.clientsM.Lock()
-	for _, client := range app.clients {
+	app.ClientsM.Lock()
+	for _, client := range app.Clients {
 		err := client.WriteMessage(websocket.TextMessage, data)
 		if err != nil {
 			client.Close()
 		}
 	}
-	app.clientsM.Unlock()
+	app.ClientsM.Unlock()
 
 	w.Write([]byte("Points received"))
 }
 
 func main() {
 
-	r := chi.NewRouter()
-	app := &App{
-		r: r,
+	app := &App{}
+
+	db, err := app.initDB()
+	if err != nil {
+		panic(err)
 	}
 
-	app.r = r
+	r := chi.NewRouter()
+	// CORS middleware configuration
+	r.Use(cors.New(cors.Options{
+		AllowedOrigins:   []string{"http://localhost:5173"}, // Your frontend URL
+		AllowedMethods:   []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
+		AllowedHeaders:   []string{"Accept", "Authorization", "Content-Type", "X-CSRF-Token"},
+		ExposedHeaders:   []string{"Link"},
+		AllowCredentials: true,
+		MaxAge:           300, // Maximum value not ignored by any of major browsers
+	}).Handler)
 
-	app.r.Post("/points", app.GetPoints)
+	app.DB = db
+	app.R = r
 
-	app.r.Get("/ws", app.handleWebSocket)
-
-	app.r.Get("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("Hello World"))
-	})
+	app.initHandlers()
 
 	if err := http.ListenAndServe(":8080", r); err != nil {
 		panic(err)
