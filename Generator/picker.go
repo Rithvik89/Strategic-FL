@@ -66,8 +66,8 @@ func (bp *BallPicker) StartMatch() {
 
 		players := bp.FantasyCalc.CalculatePoints(&ball)
 		fmt.Println(players)
-		// respCode := PostRequest("http://localhost:8080/points", players)
-		// fmt.Printf("Response code: %d\n", respCode)
+		respCode := PostRequest("http://localhost:8080/points", players)
+		fmt.Printf("Response code: %d\n", respCode)
 
 		//TODO: Handler Error
 
