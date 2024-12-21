@@ -70,10 +70,10 @@ export const TradeScreen: React.FC = () => {
     
     
       return (
-        <div className="container mx-auto p-1">
+        <div className="container p-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {cards.map((card, index) => (
-                <CardLayout key={index} {...card} />
+            <CardLayout key={index} {...card} />
             ))}
           </div>
         </div>
