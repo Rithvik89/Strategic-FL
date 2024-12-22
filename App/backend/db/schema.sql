@@ -1,16 +1,61 @@
+-- Create playters table
+-- load all these players data even before tournment
+-- so that we can assign base_prices as well in prior.
+-- As we only open the league to users after toss, we just fetch the squad from the 
+-- api and add them to players and base price and recreate the leagues (RARE case)...
 CREATE TABLE IF NOT EXISTS players (
-    playerID SERIAL PRIMARY KEY,
-    playername VARCHAR(255),
+    player_id VARCHAR(6) PRIMARY KEY,
+    player_name VARCHAR(255),
     team VARCHAR(255),
-    year VARCHAR(4),
-    league VARCHAR(255),
-    profile_pic VARCHAR(255)
 );
 
-CREATE TABLE IF NOT EXISTS points (
-    pointID SERIAL PRIMARY KEY,
-    player_id SERIAL,
-    cur_points INT,
-    last_change VARCHAR(3) CHECK (last_change IN ('pos', 'neg', 'neu')),
-    FOREIGN KEY (player_id) REFERENCES players(playerID)
+
+-- assign base price for all the players manually...
+-- This has to be done even before the match.
+Create Table base_price (
+    player_id SERIAL PRIMARY KEY,
+    base_price INT
+    FOREIGN KEY (player_id) REFERENCES players(player_id)
+)
+
+
+-- both the above tables are to be created before the tournment.
+
+
+
+-- Create Leagues table  -> (league details)
+-- Add Leagues here once a post request is made with the required team_ids, entry_fee, capacity, match_id.
+-- users_registered is a comma separated user_ids...
+CREATE TABLE leagues (
+    league_id VARCHAR(100) PRIMARY KEY,
+    match_id VARCHAR(50),
+    entry_fee INT,
+    capacity INT,
+    registered INT,
+    users_registered TEXT,
+    league_status VARCHAR(15) CHECK (league_status IN ('active', 'completed', 'not started'))
 );
+
+-- once this table is create we also create a points_{} table to track the cur_price.
+-- so here we call squads api once to get the player id's belonging to those teams and get their respective base prices.
+
+
+-- Create points table with league_id (Not to be created)
+CREATE TABLE points_{league_name} (
+    player_id SERIAL PRIMARY KEY,
+    base_price INT,
+    cur_price INT,
+    last_change VARCHAR(3) CHECK (last_change IN ('pos', 'neg', 'neu')),
+    FOREIGN KEY (player_id) REFERENCES players(player_id)
+);
+
+
+
+-- Create Users table 
+CREATE TABLE users (
+    user_id SERIAL PRIMARY KEY,
+    user_name VARCHAR(50),
+    mail_id VARCHAR(100),
+    profile_pic VARCHAR(100)
+);
+
