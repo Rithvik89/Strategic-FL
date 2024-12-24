@@ -1,5 +1,4 @@
 Sunrisers Hyderabad (SRH)
-
     Travis Head - 9 [0(2) new price: 6].
     Abhishek Sharma - 7  -> [15(8)*  new price: 10] .
     Aiden Markram - 8
@@ -13,7 +12,6 @@ Sunrisers Hyderabad (SRH)
     T Natarajan - 7
 
 Royal Challengers Bengaluru (RCB)
-
     Virat Kohli - 10
     Faf du Plessis (c) - 9
     Will Jacks - 7
@@ -25,6 +23,14 @@ Royal Challengers Bengaluru (RCB)
     Lockie Ferguson - 8
     Mohammed Siraj - 8
     Yash Dayal - 7
+
+
+No selling ...
+
+Head, abhishek, dayal, 
+
+1 over 12 runs abhishek   -> (15)   -> (performance + demand|antisipation)
+0(1)  head  ->               (9 -> 8)  game finished ...
 
 
 Rule 1: min_players to be selected before match = 5; total purse = 100;
