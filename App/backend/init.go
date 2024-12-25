@@ -1,6 +1,7 @@
 package main
 
 import (
+	KVStore "backend/pkg"
 	"net/http"
 
 	"gorm.io/driver/postgres"
@@ -17,11 +18,17 @@ func (app *App) initDB() (*gorm.DB, error) {
 	return db, nil
 }
 
+func (app *App) initKVStore() {
+	// initialize redis
+	app.KVStore = KVStore.NewRedis("localhost:6379", "", 0)
+}
+
 func (app *App) initHandlers() {
 	app.R.Get("/ws", app.handleWebSocket)
-	app.R.Post("/points", app.GetPoints)
-	app.R.Post("/create", app.CreateLeague)
+	app.R.Post("/points", app.PushPoints)
+	app.R.Post("/createLeague", app.CreateLeague)
 	app.R.Get("/players", app.GetLeague)
+	app.R.Delete("/deleteLeague", app.DeleteLeague)
 	app.R.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("Hello World"))
 	})
