@@ -13,3 +13,12 @@ stop_db:
 
 restart_db: stop_db start_db
 
+start_redis:
+	docker run --name redis -p 6379:6379 -d redis
+
+stop_redis:
+	docker stop redis
+	docker rm redis
+
+restart_redis: stop_redis start_redis
+
