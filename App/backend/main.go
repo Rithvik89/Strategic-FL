@@ -1,9 +1,8 @@
 package main
 
 import (
-	"encoding/json"
-	"fmt"
-	"io/ioutil"
+	KVStore "backend/pkg"
+
 	"net/http"
 	"sync"
 
@@ -24,6 +23,7 @@ type App struct {
 	R        *chi.Mux
 	Clients  []*websocket.Conn
 	ClientsM sync.Mutex
+	KVStore  KVStore.KVStore
 }
 
 // TODO: Assuming we are only having 1 match pool for now
@@ -59,34 +59,6 @@ func (app *App) handleWebSocket(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func (app *App) GetPoints(w http.ResponseWriter, r *http.Request) {
-	var players map[string]int
-	// parse the request body.
-	data, err := ioutil.ReadAll(r.Body)
-	if err != nil {
-		http.Error(w, "Could not read request body", http.StatusBadRequest)
-		return
-	}
-	err = json.Unmarshal(data, &players)
-	if err != nil {
-		http.Error(w, "Could not parse request body", http.StatusBadRequest)
-		return
-	}
-
-	fmt.Println(players)
-
-	app.ClientsM.Lock()
-	for _, client := range app.Clients {
-		err := client.WriteMessage(websocket.TextMessage, data)
-		if err != nil {
-			client.Close()
-		}
-	}
-	app.ClientsM.Unlock()
-
-	w.Write([]byte("Points received"))
-}
-
 func main() {
 
 	app := &App{}
@@ -110,7 +82,10 @@ func main() {
 	app.DB = db
 	app.R = r
 
+	// create a map relation btw  player name and player_id
+
 	app.initHandlers()
+	app.initKVStore()
 
 	if err := http.ListenAndServe(":8080", r); err != nil {
 		panic(err)
