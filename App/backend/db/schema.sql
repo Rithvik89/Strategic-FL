@@ -6,17 +6,17 @@
 CREATE TABLE IF NOT EXISTS players (
     player_id VARCHAR(6) PRIMARY KEY,
     player_name VARCHAR(255),
-    team VARCHAR(255),
+    team VARCHAR(255)
 );
 
 
 -- assign base price for all the players manually...
 -- This has to be done even before the match.
 Create Table base_price (
-    player_id SERIAL PRIMARY KEY,
-    base_price INT
+    player_id VARCHAR(6) PRIMARY KEY,
+    base_price INT,
     FOREIGN KEY (player_id) REFERENCES players(player_id)
-)
+);
 
 
 -- both the above tables are to be created before the tournment.
@@ -31,9 +31,9 @@ CREATE TABLE leagues (
     match_id VARCHAR(50),
     entry_fee INT,
     capacity INT,
-    registered INT,
+    registered INT DEFAULT 0,
     users_registered TEXT,
-    league_status VARCHAR(15) CHECK (league_status IN ('active', 'completed', 'not started'))
+    league_status VARCHAR(15) DEFAULT 'not started' CHECK (league_status IN ('active', 'completed', 'not started'))
 );
 
 -- once this table is create we also create a points_{} table to track the cur_price.
@@ -41,12 +41,12 @@ CREATE TABLE leagues (
 
 
 -- Create points table with league_id (Not to be created)
+-- TODO: Add a foriegn key player_id to players table.
 CREATE TABLE points_{league_name} (
     player_id SERIAL PRIMARY KEY,
     base_price INT,
     cur_price INT,
     last_change VARCHAR(3) CHECK (last_change IN ('pos', 'neg', 'neu')),
-    FOREIGN KEY (player_id) REFERENCES players(player_id)
 );
 
 
