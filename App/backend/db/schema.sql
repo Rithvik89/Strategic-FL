@@ -1,3 +1,6 @@
+-- So i am going with this architectural decision of creating new table for each league if it can be deleted after the contest.
+
+
 -- Create playters table
 -- load all these players data even before tournment
 -- so that we can assign base_prices as well in prior.
@@ -42,6 +45,7 @@ CREATE TABLE leagues (
 
 -- Create points table with league_id (Not to be created)
 -- TODO: Add a foriegn key player_id to players table.
+
 CREATE TABLE points_{league_name} (
     player_id SERIAL PRIMARY KEY,
     base_price INT,
@@ -58,4 +62,42 @@ CREATE TABLE users (
     mail_id VARCHAR(100),
     profile_pic VARCHAR(100)
 );
+
+-- Create Purse table to store the remaining purse for each user in each league.
+CREATE TABLE purse (
+    user_id INT,
+    league_id VARCHAR(100),
+    remaining_purse INT,
+    PRIMARY KEY (user_id, league_id),
+    FOREIGN KEY (user_id) REFERENCES users(user_id),
+    FOREIGN KEY (league_id) REFERENCES leagues(league_id)
+);
+
+CREATE TABLE portfolio (
+    user_id INT,
+    league_id VARCHAR(100),
+    player_id VARCHAR(6),
+    shares INT,
+    PRIMARY KEY (user_id, league_id, player_id),
+    FOREIGN KEY (user_id) REFERENCES users(user_id),
+    FOREIGN KEY (league_id) REFERENCES leagues(league_id),
+    FOREIGN KEY (player_id) REFERENCES players(player_id)
+);
+
+
+-- Create a table to store the transactions of the users.
+-- As this is a bit rarely acccessed table, we can keep it in the same table.
+Create Table transactions (
+    user_id INT,
+    league_id VARCHAR(100),
+    player_id VARCHAR(6),
+    shares INT,
+    price INT,
+    transaction_type VARCHAR(10) CHECK (transaction_type IN ('buy', 'sell')),
+    transaction_time TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES users(user_id),
+    FOREIGN KEY (league_id) REFERENCES leagues(league_id),
+    FOREIGN KEY (player_id) REFERENCES players(player_id)
+);
+
 
