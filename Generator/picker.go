@@ -23,22 +23,27 @@ type BallData struct {
 	Over         string `json:"over"`
 	Ball         string `json:"ball"`
 	Batter       string `json:"batter"`
+	BatterID     string `json:"batterId"`
 	NonStriker   string `json:"nonStriker"`
+	NonStrikerID string `json:"nonStrikerId"`
 	Bowler       string `json:"bowler"`
+	BowlerID     string `json:"bowlerId"`
 	BatterRuns   string `json:"batterRuns"`
 	ExtraRuns    string `json:"extraRuns"`
 	RunsFromBall string `json:"runsFromBall"`
 	Wicket       string `json:"wicket"`
 	Method       string `json:"method"`
 	PlayerOut    string `json:"playerOut"`
+	PlayerOutID  string `json:"playerOutId"`
 	CaughtBy     string `json:"caughtBy"`
+	CaughtByID   string `json:"caughtById"`
 }
 
 func (bp *BallPicker) NewBallPicker() *BallPicker {
 	return &BallPicker{
 		SummaryFile: "ball_by_ball_ipl.json",
 		Offset:      1,
-		MaxDelay:    20,
+		MaxDelay:    30,
 		FantasyCalc: (&FantasyCalc{}).NewFantasyCalc(),
 	}
 }
@@ -64,9 +69,15 @@ func (bp *BallPicker) StartMatch() {
 		// Print ball data
 		fmt.Printf("Ball %d: %s to %s, %s runs\n", ball.BallNo, ball.Bowler, ball.Batter, ball.RunsFromBall)
 
-		players := bp.FantasyCalc.CalculatePoints(&ball)
-		fmt.Println(players)
-		respCode := PostRequest("http://localhost:8080/points", players)
+		response := struct {
+			Players map[string]int `json:"players"`
+			MatchID string         `json:"matchId"`
+		}{
+			Players: bp.FantasyCalc.CalculatePoints(&ball),
+			MatchID: ball.MatchID,
+		}
+		fmt.Println(response)
+		respCode := PostRequest("http://localhost:8080/points", response)
 		fmt.Printf("Response code: %d\n", respCode)
 
 		//TODO: Handler Error

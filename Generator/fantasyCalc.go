@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"os"
 )
 
@@ -69,29 +70,31 @@ func (fc *FantasyCalc) CalculatePoints(ballDetails *BallData) map[string]int {
 	// Three types of points...
 	// 1. Wicket
 	if ballDetails.Wicket == "1" {
-		points[ballDetails.Bowler] += rules.BowlingRules.Wicket
+		points[ballDetails.BowlerID] += rules.BowlingRules.Wicket
 		if ballDetails.Method == "caught" {
-			points[ballDetails.CaughtBy] += rules.FieldingRules.Catch
+			points[ballDetails.CaughtByID] += rules.FieldingRules.Catch
 		}
 		//TODO: also include run out and stumping
 	}
 	// 2. Runs
 	if ballDetails.RunsFromBall != "0" {
-		points[ballDetails.Batter] += rules.BattingRules.Run * (int)(ballDetails.RunsFromBall[0]-'0')
+		points[ballDetails.BatterID] += rules.BattingRules.Run * (int)(ballDetails.RunsFromBall[0]-'0')
 		if ballDetails.RunsFromBall == "4" {
-			points[ballDetails.Batter] += rules.BattingRules.BoundaryBonus
+			points[ballDetails.BatterID] += rules.BattingRules.BoundaryBonus
 		}
 		if ballDetails.RunsFromBall == "6" {
-			points[ballDetails.Batter] += rules.BattingRules.SixBonus
+			points[ballDetails.BatterID] += rules.BattingRules.SixBonus
 		}
 		//Todo: handler 30,50,100 run bonus...
 	} else {
-		points[ballDetails.Batter] += rules.BattingRules.DotBall
+		points[ballDetails.BatterID] += rules.BattingRules.DotBall
 	}
 	// 3.Bowling Dots
 	if ballDetails.RunsFromBall == "0" {
-		points[ballDetails.Bowler] += rules.BowlingRules.DotBall
+		points[ballDetails.BowlerID] += rules.BowlingRules.DotBall
 	}
+
+	fmt.Println(points)
 
 	return points
 }
