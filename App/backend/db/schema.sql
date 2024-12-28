@@ -62,6 +62,12 @@ CREATE TABLE users (
     mail_id VARCHAR(100),
     profile_pic VARCHAR(100)
 );
+ALTER TABLE users
+ADD COLUMN password VARCHAR(255);
+-- Insert a new user into the users table
+INSERT INTO users (user_name, mail_id, profile_pic, password) 
+VALUES ('John Doe', 'john.doe@example.com', 'profile_pic_url', 'password');
+
 
 -- Create Purse table to store the remaining purse for each user in each league.
 CREATE TABLE purse (
