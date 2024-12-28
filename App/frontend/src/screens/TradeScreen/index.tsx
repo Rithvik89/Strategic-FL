@@ -5,6 +5,8 @@ import axios from 'axios';
 import CardLayout from '../../components/PlayerCard';
 import { useWebSocket } from '../../hooks/useWebSocket';
 
+import { useSearchParams } from 'react-router-dom';
+
 interface CardProps {
     player_id: string;
     player_name: string;
@@ -14,14 +16,27 @@ interface CardProps {
     last_change: string;
   }
 
+
 export const TradeScreen: React.FC = () => {
 
     const [cards, setCards] = useState<CardProps[]>([]);
+    const [searchParams] = useSearchParams();
+    const leagueId:string|null = searchParams.get('leagueId'); 
 
     useEffect(() => {
         const fetchPlayers = async () => {
             try {
-                const response = await fetch('http://localhost:8080/players?match_id=1359507');
+            
+                const token :string|null = localStorage.getItem('token');
+                console.log('token:', token);
+                const response = await fetch(`http://localhost:8080/players?league_id=${leagueId}`, {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+
+                    }
+                });
                 const data: CardProps[] = await response.json();
                 const players = data.map((player: CardProps) => ({
                     ...player,
@@ -34,7 +49,7 @@ export const TradeScreen: React.FC = () => {
         };
 
         fetchPlayers();
-    }, []);
+    }, [leagueId]);
 
     const { isConnected, messages, sendMessage } = useWebSocket({
         url: 'ws://localhost:8080/ws'
@@ -46,7 +61,7 @@ export const TradeScreen: React.FC = () => {
         console.log("In useEffect");
         if (messages.length > 0) {
             const updatedPlayers = cards.map((player) => {
-                const message = messages[0][player.player_name];
+                const message = messages[0].players[player.player_id];
                 if (message) {
                     // new price
                     console.log("newPrice" ,message)
