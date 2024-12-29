@@ -12,14 +12,14 @@ const portfolio:MiniPortfolioProps = {
 
 export const MiniPortfolio: React.FC<MiniPortfolioProps> = ({ remaining_purse, returns}) => {
     return (
-        <Card shadow="sm" padding="lg" radius="md" withBorder>
+        <Card shadow="sm" padding="lg" radius="md" withBorder style={{ width: '100%' }}>
             
             <Text  size="xl">Portfolio Analysis</Text>
-            <Group justify="space-between" mt="md" mb="xs"> 
+            <Group align="apart" mt="md" mb="xs"> 
                 <Text fw={500}>Purse Left:</Text>
                 <Text style={{ color: "black" }}>{remaining_purse}</Text>
             </Group>
-            <Group justify="space-between" mt="md" mb="xs"> 
+            <Group align="apart" mt="md" mb="xs"> 
                 <Text fw={500}>Returns:</Text>
                 <Text style={{ color: "green", display: 'flex'}}>{returns}<FaArrowTrendUp style={{ color: 'green' }} /></Text>
                 

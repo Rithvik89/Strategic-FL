@@ -61,3 +61,16 @@
   }
 }
 
+
+.mobile-container {
+  margin: 0;      /* Full width on mobile */
+  width: 100%;
+}
+
+.desktop-container {
+  margin: 0 auto; /* Centered, narrower for desktop */
+  width: 70%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+

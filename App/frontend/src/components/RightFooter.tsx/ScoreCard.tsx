@@ -1,4 +1,6 @@
-import { Avatar, Card, Group, Text, Badge, Stack } from "@mantine/core";
+import { Avatar, Card, Group, Text, Badge, Stack, rem } from "@mantine/core";
+import { Carousel } from "@mantine/carousel";
+import { IconArrowRight, IconArrowLeft } from "@tabler/icons-react";
 
 export interface ScoreCardProps {
     TeamA : string;

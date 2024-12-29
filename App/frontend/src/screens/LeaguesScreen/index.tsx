@@ -60,6 +60,7 @@ export const LeaguesScreen = () => {
                         registered={league.registered}
                         users_registered={league.users_registered}
                         match_id={league.match_id}
+                        is_registered={league.is_registered}
                     />
                 ))}
             </div>

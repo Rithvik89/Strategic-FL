@@ -15,3 +15,13 @@ sleep 5
 docker exec -it db psql -U postgres -c "CREATE DATABASE db;"
 
 echo "Database 'db' created successfully."
+
+# Stop and remove existing redis container
+
+make stop_redis
+
+# Start redis server using Makefile
+
+make start_redis
+
+echo "Redis server started successfully."

@@ -138,7 +138,13 @@ const playerData = [
   
 
 
+
+
 export const Graph = function() {
+
+
+
+
     return (
         <ResponsiveContainer width="90%" height={300}>
         <div>

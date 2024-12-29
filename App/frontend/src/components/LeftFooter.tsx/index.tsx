@@ -1,8 +1,6 @@
 import { Table, Text } from "@mantine/core";
 import { LeaderBoard, LeaderBoardProps, LeaderBoardPropsList } from "./LeaderBoard";
 
-
-
 const users: LeaderBoardProps[] = [
   { UserName: 'Alice', Points: 120 },
   { UserName: 'Bob', Points: 95 },
@@ -28,8 +26,7 @@ const users: LeaderBoardProps[] = [
 
 export const LeftFooter: React.FC = () => {
    return (
-    <div className="container p-4 mr-6" style={{}} >
-      
+    <div className="container p-4 mr-6" style={{ width: '15%', position: 'absolute', left: 0 }} >
       <LeaderBoard LeaderBoard={users}/>
     </div>
    )

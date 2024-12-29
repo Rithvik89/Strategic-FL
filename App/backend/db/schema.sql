@@ -39,6 +39,12 @@ CREATE TABLE leagues (
     league_status VARCHAR(15) DEFAULT 'not started' CHECK (league_status IN ('active', 'completed', 'not started'))
 );
 
+ALTER TABLE leagues
+ALTER COLUMN users_registered SET DATA TYPE INT[] USING string_to_array(users_registered, ',')::INT[];
+
+ALTER TABLE leagues
+ALTER COLUMN users_registered SET DATA TYPE TEXT USING array_to_string(users_registered, ',');
+
 -- once this table is create we also create a points_{} table to track the cur_price.
 -- so here we call squads api once to get the player id's belonging to those teams and get their respective base prices.
 
@@ -46,7 +52,7 @@ CREATE TABLE leagues (
 -- Create points table with league_id (Not to be created)
 -- TODO: Add a foriegn key player_id to players table.
 
-CREATE TABLE points_{league_name} (
+CREATE TABLE players_{league_name} (
     player_id SERIAL PRIMARY KEY,
     base_price INT,
     cur_price INT,

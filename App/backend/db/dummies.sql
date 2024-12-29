@@ -41,14 +41,7 @@ INSERT INTO players (player_name, team, year, league, profile_pic) VALUES
 ('UT Yadav', 'KKR', 2023, 'IPL', 'KKR/UT_Yadav.png');
 
 
--- Create points table with match_id
-CREATE TABLE points_1359507 (
-		player_id SERIAL PRIMARY KEY,
-		base_price INT,
-		cur_price INT,
-    	last_change VARCHAR(3) CHECK (last_change IN ('pos', 'neg', 'neu')),
-    	FOREIGN KEY (player_id) REFERENCES players(player_id)
-);
+
 
 -- CSK Points
 INSERT INTO points_1359507 (player_id, base_price, last_change) VALUES
@@ -92,3 +85,9 @@ SET cur_price = base_price;
 SELECT p.playerid, p.playername, p.team, p.profile_pic, pl.cur_price, pl.last_change
 	FROM players p
 	JOIN points_1359507 pl ON p.playerid = pl.player_id
+
+
+	CREATE TABLE leagues (
+		league_id SERIAL PRIMARY KEY,
+		league_name VARCHAR(255)
+	);

@@ -34,7 +34,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 2,
@@ -71,7 +76,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 3,
@@ -108,7 +118,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 4,
@@ -145,7 +160,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 5,
@@ -182,7 +202,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 6,
@@ -219,7 +244,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 7,
@@ -256,7 +286,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 8,
@@ -293,7 +328,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 9,
@@ -330,7 +370,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 10,
@@ -367,7 +412,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 11,
@@ -404,7 +454,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 12,
@@ -441,7 +496,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 13,
@@ -478,7 +538,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 14,
@@ -515,7 +580,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 15,
@@ -552,7 +622,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 16,
@@ -589,7 +664,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 17,
@@ -626,7 +706,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 18,
@@ -663,7 +748,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 19,
@@ -700,7 +790,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 20,
@@ -737,7 +832,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 21,
@@ -774,7 +874,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 22,
@@ -811,7 +916,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 23,
@@ -848,7 +958,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 24,
@@ -885,7 +1000,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 25,
@@ -922,7 +1042,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 26,
@@ -959,7 +1084,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 27,
@@ -996,7 +1126,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 28,
@@ -1033,7 +1168,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 29,
@@ -1070,7 +1210,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 30,
@@ -1107,7 +1252,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 31,
@@ -1144,7 +1294,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 32,
@@ -1181,7 +1336,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 33,
@@ -1218,7 +1378,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 34,
@@ -1255,7 +1420,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 35,
@@ -1292,7 +1462,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 36,
@@ -1329,7 +1504,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 37,
@@ -1366,7 +1546,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 38,
@@ -1403,7 +1588,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 39,
@@ -1440,7 +1630,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 40,
@@ -1477,7 +1672,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 41,
@@ -1514,7 +1714,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 42,
@@ -1551,7 +1756,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 43,
@@ -1588,7 +1798,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 44,
@@ -1625,7 +1840,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "5",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 45,
@@ -1662,7 +1882,12 @@
     "playerOutRuns": "35.0",
     "playerOutBallsFaced": "20.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "5",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": "5"
   },
   {
     "ballNo": 46,
@@ -1699,7 +1924,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 47,
@@ -1736,7 +1966,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 48,
@@ -1773,7 +2008,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 49,
@@ -1810,7 +2050,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 50,
@@ -1847,7 +2092,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 51,
@@ -1884,7 +2134,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 52,
@@ -1921,7 +2176,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 53,
@@ -1958,7 +2218,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 54,
@@ -1995,7 +2260,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "19",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 55,
@@ -2032,7 +2302,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 56,
@@ -2069,7 +2344,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 57,
@@ -2106,7 +2386,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 58,
@@ -2143,7 +2428,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 59,
@@ -2180,7 +2470,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 60,
@@ -2217,7 +2512,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 61,
@@ -2254,7 +2554,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 62,
@@ -2291,7 +2596,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 63,
@@ -2328,7 +2638,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 64,
@@ -2365,7 +2680,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 65,
@@ -2402,7 +2722,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 66,
@@ -2439,7 +2764,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 67,
@@ -2476,7 +2806,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 68,
@@ -2513,7 +2848,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 69,
@@ -2550,7 +2890,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 70,
@@ -2587,7 +2932,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 71,
@@ -2624,7 +2974,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 72,
@@ -2661,7 +3016,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "1",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 73,
@@ -2699,7 +3059,12 @@
     "playerOutRuns": "56.0",
     "playerOutBallsFaced": "40.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "1",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "11",
+    "playerOutId": "1"
   },
   {
     "ballNo": 74,
@@ -2736,7 +3101,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 75,
@@ -2773,7 +3143,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 76,
@@ -2810,7 +3185,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 77,
@@ -2847,7 +3227,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 78,
@@ -2884,7 +3269,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 79,
@@ -2921,7 +3311,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 80,
@@ -2958,7 +3353,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 81,
@@ -2995,7 +3395,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 82,
@@ -3032,7 +3437,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 83,
@@ -3069,7 +3479,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 84,
@@ -3106,7 +3521,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "22",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 85,
@@ -3143,7 +3563,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 86,
@@ -3180,7 +3605,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 87,
@@ -3217,7 +3647,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 88,
@@ -3254,7 +3689,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 89,
@@ -3291,7 +3731,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 90,
@@ -3328,7 +3773,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "16",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 91,
@@ -3365,7 +3815,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 92,
@@ -3402,7 +3857,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 93,
@@ -3439,7 +3899,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 94,
@@ -3476,7 +3941,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 95,
@@ -3513,7 +3983,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 96,
@@ -3550,7 +4025,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "20",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 97,
@@ -3587,7 +4067,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "11",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 98,
@@ -3624,7 +4109,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "11",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 99,
@@ -3661,7 +4151,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "11",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 100,
@@ -3698,7 +4193,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "11",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 101,
@@ -3735,7 +4235,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "11",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 102,
@@ -3772,7 +4277,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "11",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 103,
@@ -3809,7 +4319,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "11",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 104,
@@ -3846,7 +4361,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "6",
+    "bowlerId": "11",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 105,
@@ -3883,7 +4403,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 106,
@@ -3920,7 +4445,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 107,
@@ -3958,7 +4488,12 @@
     "playerOutRuns": "50.0",
     "playerOutBallsFaced": "21.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "6",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "13",
+    "playerOutId": "6"
   },
   {
     "ballNo": 108,
@@ -3995,7 +4530,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "10",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 109,
@@ -4032,7 +4572,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "10",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 110,
@@ -4069,7 +4614,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "10",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 111,
@@ -4106,7 +4656,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "10",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 112,
@@ -4143,7 +4698,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "10",
+    "nonStrikerId": "0",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 113,
@@ -4180,7 +4740,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "10",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 114,
@@ -4217,7 +4782,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "10",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 115,
@@ -4254,7 +4824,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "10",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 116,
@@ -4291,7 +4866,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "0",
+    "nonStrikerId": "10",
+    "bowlerId": "15",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 117,
@@ -4328,7 +4908,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "10",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 118,
@@ -4365,7 +4950,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "10",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 119,
@@ -4402,7 +4992,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "10",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 120,
@@ -4440,7 +5035,12 @@
     "playerOutRuns": "18.0",
     "playerOutBallsFaced": "8.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "10",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "13",
+    "playerOutId": "10"
   },
   {
     "ballNo": 121,
@@ -4477,7 +5077,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "4",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 122,
@@ -4514,7 +5119,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "4",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 123,
@@ -4551,7 +5161,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "4",
+    "nonStrikerId": "0",
+    "bowlerId": "17",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 124,
@@ -4588,7 +5203,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "12",
+    "nonStrikerId": "19",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 125,
@@ -4625,7 +5245,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "19",
+    "nonStrikerId": "12",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 126,
@@ -4662,7 +5287,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "19",
+    "nonStrikerId": "12",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 127,
@@ -4699,7 +5329,12 @@
     "playerOutRuns": "0.0",
     "playerOutBallsFaced": "3.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "19",
+    "nonStrikerId": "12",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": "19"
   },
   {
     "ballNo": 128,
@@ -4736,7 +5371,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "12",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 129,
@@ -4773,7 +5413,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "12",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 130,
@@ -4810,7 +5455,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "12",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 131,
@@ -4848,7 +5498,12 @@
     "playerOutRuns": "1.0",
     "playerOutBallsFaced": "3.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "12",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": "12"
   },
   {
     "ballNo": 132,
@@ -4885,7 +5540,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 133,
@@ -4922,7 +5582,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 134,
@@ -4959,7 +5624,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 135,
@@ -4996,7 +5666,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 136,
@@ -5033,7 +5708,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 137,
@@ -5070,7 +5750,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 138,
@@ -5107,7 +5792,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 139,
@@ -5144,7 +5834,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 140,
@@ -5181,7 +5876,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 141,
@@ -5218,7 +5918,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 142,
@@ -5255,7 +5960,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 143,
@@ -5292,7 +6002,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 144,
@@ -5329,7 +6044,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 145,
@@ -5366,7 +6086,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 146,
@@ -5403,7 +6128,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 147,
@@ -5440,7 +6170,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 148,
@@ -5477,7 +6212,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 149,
@@ -5514,7 +6254,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 150,
@@ -5551,7 +6296,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 151,
@@ -5588,7 +6338,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 152,
@@ -5625,7 +6380,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 153,
@@ -5662,7 +6422,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 154,
@@ -5699,7 +6464,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 155,
@@ -5736,7 +6506,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 156,
@@ -5773,7 +6548,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 157,
@@ -5810,7 +6590,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 158,
@@ -5847,7 +6632,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 159,
@@ -5884,7 +6674,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 160,
@@ -5921,7 +6716,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 161,
@@ -5958,7 +6758,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 162,
@@ -5995,7 +6800,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 163,
@@ -6032,7 +6842,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 164,
@@ -6069,7 +6884,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 165,
@@ -6106,7 +6926,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 166,
@@ -6143,7 +6968,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "21",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 167,
@@ -6180,7 +7010,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "9",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 168,
@@ -6217,7 +7052,12 @@
     "playerOutRuns": "20.0",
     "playerOutBallsFaced": "20.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "21",
+    "nonStrikerId": "18",
+    "bowlerId": "8",
+    "caughtById": "",
+    "playerOutId": "21"
   },
   {
     "ballNo": 169,
@@ -6254,7 +7094,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "18",
+    "bowlerId": "8",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 170,
@@ -6291,7 +7136,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "14",
+    "bowlerId": "8",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 171,
@@ -6328,7 +7178,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "18",
+    "bowlerId": "8",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 172,
@@ -6365,7 +7220,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "18",
+    "bowlerId": "8",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 173,
@@ -6402,7 +7262,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "18",
+    "bowlerId": "8",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 174,
@@ -6439,7 +7304,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 175,
@@ -6461,7 +7331,7 @@
     "extraType": "[]",
     "wicket": "1",
     "method": "caught",
-    "caughtBy":"AM Rahane",
+    "caughtBy": "AM Rahane",
     "playerOut": "N Rana",
     "inningsRuns": "70",
     "inningsWickets": "4",
@@ -6477,7 +7347,12 @@
     "playerOutRuns": "27.0",
     "playerOutBallsFaced": "21.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "18",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "0",
+    "playerOutId": "18"
   },
   {
     "ballNo": 176,
@@ -6514,7 +7389,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 177,
@@ -6551,7 +7431,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 178,
@@ -6588,7 +7473,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 179,
@@ -6625,7 +7515,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 180,
@@ -6662,7 +7557,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 181,
@@ -6699,7 +7599,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 182,
@@ -6736,7 +7641,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 183,
@@ -6773,7 +7683,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 184,
@@ -6810,7 +7725,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 185,
@@ -6847,7 +7767,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 186,
@@ -6884,7 +7809,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 187,
@@ -6921,7 +7851,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 188,
@@ -6958,7 +7893,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 189,
@@ -6995,7 +7935,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 190,
@@ -7032,7 +7977,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 191,
@@ -7069,7 +8019,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 192,
@@ -7106,7 +8061,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 193,
@@ -7143,7 +8103,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 194,
@@ -7180,7 +8145,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 195,
@@ -7217,7 +8187,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 196,
@@ -7254,7 +8229,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 197,
@@ -7291,7 +8271,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 198,
@@ -7328,7 +8313,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 199,
@@ -7365,7 +8355,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 200,
@@ -7402,7 +8397,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 201,
@@ -7439,7 +8439,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 202,
@@ -7476,7 +8481,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 203,
@@ -7513,7 +8523,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 204,
@@ -7550,7 +8565,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "10",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 205,
@@ -7587,7 +8607,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 206,
@@ -7624,7 +8649,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 207,
@@ -7661,7 +8691,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 208,
@@ -7698,7 +8733,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 209,
@@ -7735,7 +8775,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 210,
@@ -7772,7 +8817,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "14",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 211,
@@ -7809,7 +8859,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 212,
@@ -7846,7 +8901,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 213,
@@ -7883,7 +8943,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 214,
@@ -7920,7 +8985,12 @@
     "playerOutRuns": "61.0",
     "playerOutBallsFaced": "27.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "14",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": "14"
   },
   {
     "ballNo": 215,
@@ -7957,7 +9027,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "11",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 216,
@@ -7994,7 +9069,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "11",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 217,
@@ -8031,7 +9111,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 218,
@@ -8068,7 +9153,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 219,
@@ -8105,7 +9195,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 220,
@@ -8142,7 +9237,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 221,
@@ -8179,7 +9279,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 222,
@@ -8216,7 +9321,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 223,
@@ -8253,7 +9363,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "11",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 224,
@@ -8290,7 +9405,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "11",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 225,
@@ -8327,7 +9447,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "11",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 226,
@@ -8364,7 +9489,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 227,
@@ -8401,7 +9531,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "4",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 228,
@@ -8438,7 +9573,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "11",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 229,
@@ -8475,7 +9615,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "11",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 230,
@@ -8497,7 +9642,7 @@
     "extraType": "[]",
     "wicket": "1",
     "method": "caught",
-    "caughtBy":"MS Dhoni",
+    "caughtBy": "MS Dhoni",
     "playerOut": "AD Russell",
     "inningsRuns": "162",
     "inningsWickets": "6",
@@ -8513,7 +9658,12 @@
     "playerOutRuns": "9.0",
     "playerOutBallsFaced": "7.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "11",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "4",
+    "playerOutId": "11"
   },
   {
     "ballNo": 231,
@@ -8550,7 +9700,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "16",
+    "nonStrikerId": "13",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 232,
@@ -8587,7 +9742,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "16",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 233,
@@ -8624,7 +9784,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "16",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 234,
@@ -8661,7 +9826,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "16",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 235,
@@ -8698,7 +9868,12 @@
     "playerOutRuns": "1.0",
     "playerOutBallsFaced": "2.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "16",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": "16"
   },
   {
     "ballNo": 236,
@@ -8735,7 +9910,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "22",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 237,
@@ -8772,7 +9952,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "22",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 238,
@@ -8809,7 +9994,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "22",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 239,
@@ -8846,7 +10036,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "0"
+    "validBall": "0",
+    "batterId": "22",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 240,
@@ -8883,7 +10078,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "22",
+    "nonStrikerId": "13",
+    "bowlerId": "7",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 241,
@@ -8920,7 +10120,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "2",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "22",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 242,
@@ -8957,7 +10162,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "1",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "22",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 243,
@@ -8979,7 +10189,7 @@
     "extraType": "[]",
     "wicket": "1",
     "method": "caught",
-    "caughtBy":"MS Dhoni",
+    "caughtBy": "MS Dhoni",
     "playerOut": "UT Yadav",
     "inningsRuns": "180",
     "inningsWickets": "8",
@@ -8995,7 +10205,12 @@
     "playerOutRuns": "4.0",
     "playerOutBallsFaced": "4.0",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "22",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "4",
+    "playerOutId": "22"
   },
   {
     "ballNo": 244,
@@ -9032,7 +10247,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "15",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 245,
@@ -9069,7 +10289,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "15",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 246,
@@ -9106,7 +10331,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "15",
+    "nonStrikerId": "13",
+    "bowlerId": "3",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 247,
@@ -9143,7 +10373,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "15",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 248,
@@ -9180,7 +10415,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "15",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 249,
@@ -9217,7 +10457,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "6",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "15",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 250,
@@ -9254,7 +10499,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "15",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 251,
@@ -9291,7 +10541,12 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "15",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   },
   {
     "ballNo": 252,
@@ -9328,6 +10583,11 @@
     "playerOutRuns": "",
     "playerOutBallsFaced": "",
     "bowlerRunsConceded": "0",
-    "validBall": "1"
+    "validBall": "1",
+    "batterId": "13",
+    "nonStrikerId": "15",
+    "bowlerId": "2",
+    "caughtById": "",
+    "playerOutId": ""
   }
 ]

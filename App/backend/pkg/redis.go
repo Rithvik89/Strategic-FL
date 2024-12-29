@@ -97,3 +97,27 @@ func (r Redis) LIndex(key string, index int64) (string, error) {
 	}
 	return val, nil
 }
+
+func (r Redis) LRange(key string, start, stop int64) ([]string, error) {
+	val, err := r.client.LRange(ctx, key, start, stop).Result()
+	if err != nil {
+		return nil, err
+	}
+	return val, nil
+}
+
+func (r Redis) INCR(key string) (int64, error) {
+	val, err := r.client.Incr(ctx, key).Result()
+	if err != nil {
+		return 0, err
+	}
+	return val, nil
+}
+
+func (r Redis) DECR(key string) (int64, error) {
+	val, err := r.client.Decr(ctx, key).Result()
+	if err != nil {
+		return 0, err
+	}
+	return val, nil
+}
