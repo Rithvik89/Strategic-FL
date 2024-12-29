@@ -38,6 +38,9 @@ func (app *App) initHandlers() {
 		w.Write([]byte("Hello World"))
 	})
 
+	app.R.Post("/register", app.Middleware(http.HandlerFunc(app.RegisterLeague)))
 	app.R.Get("/profile", app.Middleware(http.HandlerFunc(app.GetProfile)))
+	app.R.Post("/trade/transaction", app.Middleware(http.HandlerFunc(app.TransactPlayers)))
+	app.R.Get("/portfolio", app.Middleware(http.HandlerFunc(app.GetPortfolio)))
 
 }
