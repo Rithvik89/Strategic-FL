@@ -13,6 +13,7 @@ import Header from './components/Header';
 import MobileHeader from './components/MobileHeader';
 import LoginScreen from './screens/LoginScreen';
 import { MantineGraph } from './components/MantineGraph';
+import { PortfolioScreen } from './screens/PortfolioScreen';
 
 
 // Sample data for the player's performance
@@ -77,6 +78,14 @@ import { MantineGraph } from './components/MantineGraph';
                 element={
                   <div className="center-container">
                     <LeaguesScreen />
+                  </div>
+                }
+              />
+              <Route
+                path="/portfolio"
+                element={
+                  <div className="center-container">
+                    <PortfolioScreen />
                   </div>
                 }
               />

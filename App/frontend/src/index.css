@@ -9,6 +9,10 @@
     .mobile-only {
       display: block;
     }
+    .center-container {
+      margin: 10px 10px; /* 10px margin on both sides */
+      width: calc(100% - 20px); /* Adjust width to account for margins */
+    }
   }
   
   @media (min-width: 769px) {
@@ -18,4 +22,10 @@
     .mobile-only {
       display: none;
     }
+    .center-container {
+      margin: 10px auto; /* Centered on desktop */
+      width: 70%;
+    }
   }
+
+
