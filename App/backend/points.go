@@ -69,13 +69,14 @@ func (app *App) PushPoints(w http.ResponseWriter, r *http.Request) {
 	for _, league := range leagues {
 		for playerID, points := range ballDetails.Player {
 			key := league + "_" + playerID
+			fmt.Println("Key:", key, "Points:", points)
 			// This way if we miss any points in entry to redis cache , we may get wrong points while cal from prev points.
 			// DB points will be correct but redis cache points will be wrong.
 			// TODO: Can we have a cron job to update the redis cache points from DB points?
 			lastEntry, err := app.KVStore.LIndex(key, -1)
 			if err != nil {
 				fmt.Println("Error fetching last entry from redis cache for player:", playerID, "error:", err)
-				return
+
 			}
 
 			var lastPoints int
@@ -101,4 +102,26 @@ func (app *App) PushPoints(w http.ResponseWriter, r *http.Request) {
 	// Write to redis cache
 
 	w.Write([]byte("Points received"))
+}
+
+// Get points for a player from redis cache for a league
+// This is generally used to show the graph representation of points for a player in a league
+func (app *App) GetPointsPlayerWise(w http.ResponseWriter, r *http.Request) {
+	leagueID := r.URL.Query().Get("league_id")
+	playerID := r.URL.Query().Get("player_id")
+	if leagueID == "" || playerID == "" {
+		http.Error(w, "league_id and player_id is required", http.StatusBadRequest)
+		return
+	}
+
+	key := leagueID + "_" + playerID
+	// Get all the points for the player in the league
+	points, err := app.KVStore.LRange(key, 0, -1)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	// Return the points
+	json.NewEncoder(w).Encode(points)
 }
