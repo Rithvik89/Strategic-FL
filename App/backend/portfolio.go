@@ -11,6 +11,7 @@ type Portfolio struct {
 	Shares     int    `json:"shares"`
 	CurPrice   int    `json:"cur_price"`
 	PlayerName string `json:"player_name"`
+	TeamName   string `json:"team_name"`
 }
 
 type DetailedPortfolio struct {
@@ -34,16 +35,20 @@ func (app *App) GetPortfolio(w http.ResponseWriter, r *http.Request) {
 
 	// Using LeagueID and PlayerID, get the player name and current price
 	for i, player := range portfolio {
-		var playerName string
 		var curPrice int
 		tx = app.DB.Raw("SELECT cur_price FROM players_"+leagueId+" WHERE player_id = ?", player.PlayerId).Scan(&curPrice)
 		if tx.Error != nil {
 			http.Error(w, tx.Error.Error(), http.StatusInternalServerError)
 			return
 		}
-		app.DB.Raw("SELECT player_name FROM players WHERE player_id = ?", player.PlayerId).Scan(&playerName)
+		var playerInfo struct {
+			PlayerName string
+			Team       string
+		}
+		app.DB.Raw("SELECT player_name,team FROM players WHERE player_id = ?", player.PlayerId).Scan(&playerInfo)
 		portfolio[i].CurPrice = curPrice
-		portfolio[i].PlayerName = playerName
+		portfolio[i].PlayerName = playerInfo.PlayerName
+		portfolio[i].TeamName = playerInfo.Team
 	}
 
 	// Get the remaining purse balance
