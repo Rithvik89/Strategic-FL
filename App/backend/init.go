@@ -31,7 +31,7 @@ func (app *App) initHandlers() {
 	app.R.Post("/createLeague", app.CreateLeague)
 	app.R.Get("/getLeagues", app.Middleware(http.HandlerFunc(app.GetLeagues)))
 
-	app.R.Get("/players", app.GetLeague)
+	app.R.Get("/players", app.Middleware(http.HandlerFunc(app.GetLeague)))
 	app.R.Delete("/deleteLeague", app.DeleteLeague)
 	app.R.Get("/points", app.Middleware(http.HandlerFunc(app.GetPointsPlayerWise)))
 	app.R.Get("/", func(w http.ResponseWriter, r *http.Request) {

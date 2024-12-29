@@ -22,6 +22,7 @@ type GetPlayerDetails struct {
 	ProfilePic string `json:"profile_pic"`
 	CurPrice   int    `json:"cur_price"`
 	LastChange string `json:"last_change"`
+	Shares     int    `json:"shares"`
 }
 
 type CreateLeague struct {
@@ -262,7 +263,8 @@ func (app *App) GetLeague(w http.ResponseWriter, r *http.Request) {
 	// Create a table name using the match_id
 	tableName := "players_" + matchID
 
-	fmt.Println(tableName)
+	// Get user_id
+	userID := r.Context().Value("user_id").(int)
 
 	// Get all players from the table
 	var playerDetails []GetPlayerDetails
@@ -272,12 +274,37 @@ func (app *App) GetLeague(w http.ResponseWriter, r *http.Request) {
 	FROM players p
 	JOIN ` + tableName + ` pl ON p.player_id = pl.player_id;`
 
-	fmt.Println(query)
-
 	err := app.DB.Raw(query).Scan(&playerDetails).Error
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
+	}
+
+	fmt.Println("Player Details: ", playerDetails)
+
+	sharesQuery := `
+		SELECT player_id, shares
+		FROM portfolio
+		WHERE league_id = ? AND user_id = ?;`
+
+	var sharesData []struct {
+		PlayerID string `json:"player_id"`
+		Shares   int    `json:"shares"`
+	}
+
+	err = app.DB.Raw(sharesQuery, matchID, userID).Scan(&sharesData).Error
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	sharesMap := make(map[string]int)
+	for _, share := range sharesData {
+		sharesMap[share.PlayerID] = share.Shares
+	}
+
+	for i, player := range playerDetails {
+		playerDetails[i].Shares = sharesMap[player.PlayerID]
 	}
 
 	// Return the players
